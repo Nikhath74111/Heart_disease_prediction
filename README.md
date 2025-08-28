@@ -1,90 +1,61 @@
-**Disease Prediction Toolkit**
+**Heart Disease Predictor**
 
-A simple machine learning toolkit to predict heart disease using patient data.
-It covers data cleaning, model training, evaluation, and visualization — all in one place.
+This project is a machine learning based predictor that helps to check if a person may have heart disease based on their health details.
 
-🌟 Features
+Features
 
-Clean and preprocess the dataset
+Loads patient data
 
-Train different ML models (Logistic Regression, Random Forest, Neural Network)
+Cleans and prepares the dataset
 
-Evaluate with metrics (accuracy, precision, recall)
+Trains machine learning models
 
-Create visualizations to understand data and results
+Shows accuracy of models
 
-Organized scripts and test cases for easy reuse
+Helps in understanding medical data through visualizations
 
-🗂 Project Structure
-Disease-Prediction-Toolkit/
-│── README.md
-│── main.ipynb
-│── data_preprocessing.py
-│── evaluation.py
-│── visualizations.ipynb
-│
-├── models/
-│   ├── logistic_regression.py
-│   ├── random_forest.py
-│   └── neural_network.py
-│
-├── tests/
-│   ├── test_preprocessing.py
-│   ├── test_models.py
-│   └── test_evaluation.py
-│
-└── datasets/
-    └── heart_disease.csv
+Project Files
 
-🔄 Project Workflow
-flowchart TD
-    A[📂 Dataset] --> B[🧹 Data Preprocessing]
-    B --> C[🤖 Model Training]
-    C --> D[📊 Evaluation]
-    D --> E[📉 Visualizations]
-    E --> F[✅ Results & Insights]
+heart_disease_predictor.ipynb → Main notebook (all code in one place)
 
-🚀 How to Run
+datasets/heart_disease.csv → Dataset file (patient details)
 
-Clone this repo:
+README.md → Project details
 
-git clone https://github.com/your-username/Disease-Prediction-Toolkit.git
-cd Disease-Prediction-Toolkit
+How to Run
 
+Install Python (>=3.8)
 
-Install required libraries:
+Install the required libraries:
 
 pip install -r requirements.txt
 
 
-Run the main notebook:
+Open Jupyter Notebook:
 
-jupyter notebook main.ipynb
+jupyter notebook
 
 
-Or test individual scripts (e.g. preprocessing, models).
+Run the file:
 
-📊 Example Results
+heart_disease_predictor.ipynb
 
-Logistic Regression → ~85% accuracy
+Example Result
 
-Random Forest → ~90% accuracy
+Logistic Regression: ~85% accuracy
 
-Neural Network → ~88% accuracy
+Random Forest: ~90% accuracy
 
-🎯 Why this project
+Neural Network: ~88% accuracy
 
-Heart disease is one of the leading causes of death.
-This project shows how machine learning can support healthcare by predicting risks from patient data.
+Future Improvements
 
-🙌 Future Work
+Add more disease datasets
 
-Add deep learning models
+Create a simple web or mobile app interface
 
-Expand to other disease datasets
+Use deep learning for better accuracy
 
-Build a web or mobile app interface
+Author
 
-👩‍💻 Author
-
-Made with ❤️ by [B Nikhath Fathima]
+Project made by [B Nikhath Fathima]
